@@ -55,26 +55,26 @@ export function MatchGrid<T>({
             placeholder={placeholder}
             input={query}
             setInput={(e) => setQuery(e)}
-            className="w-80"
+            className="w-80 max-sm:w-full"
           />
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 max-sm:mx-auto">
             <RoundedButton
               className="bg-[#343434] text-white !px-5"
-              icon={<Eye className="w-4 h-4 mr-1" />}
+              icon={<Eye className="w-4 h-4 mr-1 max-sm:hidden" />}
             >
               All Games
             </RoundedButton>
             <RoundedButton
               className="bg-[#343434] text-white !px-5"
-              icon={<Filter className="w-4 h-4 mr-1" />}
+              icon={<Filter className="w-4 h-4 mr-1 max-sm:hidden" />}
             >
               Filters
             </RoundedButton>
             <RoundedButton
               className="bg-[#30f497] text-[#343434] hover:bg-green-300 px-5 sm:w-50"
               onClick={() => console.log("Create Match clicked")}
-              icon={<Gamepad2 className="w-4 h-4 mr-1" />}
+              icon={<Gamepad2 className="w-4 h-4 mr-1 max-sm:hidden" />}
             >
               Create Match
             </RoundedButton>
