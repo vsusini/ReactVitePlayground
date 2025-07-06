@@ -38,7 +38,7 @@ export function MatchCard({ data }: MatchCardProps) {
           <div>
             <h2 className="font-semibold text-left">{gameTitle}</h2>
             <p className="text-xs text-gray-400 text-left">
-              Challenge ID: {matchId}
+              {isChallenge ? "Challenge" : "Match"} ID: {matchId}
             </p>
           </div>
 
