@@ -12,6 +12,7 @@ export default function ChallengesGrid() {
         placeholder="Search match, challenger, game..."
         renderCard={(item) => <MatchCard data={item} />}
         showControls={false}
+        loading={false}
       />
     </div>
   );

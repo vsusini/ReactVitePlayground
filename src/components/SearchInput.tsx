@@ -23,7 +23,7 @@ function SearchInput({
         onChange={handleChange}
         type="search"
         placeholder={placeholder}
-        className="pl-9 rounded-sm bg-[#2A2A2A] border border-transparent text-white placeholder:text-muted-foreground focus-visible:ring-1 focus-visible:ring-gray-600"
+        className="pl-9 rounded-xs bg-[#2A2A2A] border border-transparent text-white placeholder:text-muted-foreground focus-visible:ring-1 focus-visible:ring-gray-600"
         value={input}
       />
     </div>

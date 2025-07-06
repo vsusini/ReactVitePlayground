@@ -59,17 +59,24 @@ export function MatchGrid<T>({
           />
 
           <div className="flex gap-2">
-            <RoundedButton className="bg-[#343434] text-white rounded-full px-4">
-              <Eye className="w-4 h-4 mr-1" /> All Games
-            </RoundedButton>
-            <RoundedButton className="bg-[#343434] text-white rounded-full px-4">
-              <Filter className="w-4 h-4 mr-1" /> Filters
+            <RoundedButton
+              className="bg-[#343434] text-white !px-5"
+              icon={<Eye className="w-4 h-4 mr-1" />}
+            >
+              All Games
             </RoundedButton>
             <RoundedButton
-              className="bg-[#30f497] text-[#343434] hover:bg-green-600 px-5 sm:w-50"
-              onClick={() => console.log("Create Match clicked")}
+              className="bg-[#343434] text-white !px-5"
+              icon={<Filter className="w-4 h-4 mr-1" />}
             >
-              <Gamepad2 className="w-4 h-4 mr-1" /> Create Match
+              Filters
+            </RoundedButton>
+            <RoundedButton
+              className="bg-[#30f497] text-[#343434] hover:bg-green-300 px-5 sm:w-50"
+              onClick={() => console.log("Create Match clicked")}
+              icon={<Gamepad2 className="w-4 h-4 mr-1" />}
+            >
+              Create Match
             </RoundedButton>
           </div>
         </div>
