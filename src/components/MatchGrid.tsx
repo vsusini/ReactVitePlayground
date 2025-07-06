@@ -1,7 +1,6 @@
 import { useState } from "react";
 import SearchInput from "./SearchInput";
 import { Skeleton } from "./ui/skeleton";
-import { Button } from "./ui/button";
 import { Eye, Filter, Gamepad2 } from "lucide-react";
 import { RoundedButton } from "./RoundedButton";
 

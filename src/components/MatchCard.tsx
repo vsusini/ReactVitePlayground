@@ -1,6 +1,5 @@
 import type { MatchCardData } from "@/lib/types";
 import { Card, CardContent } from "./ui/card";
-import { Button } from "./ui/button";
 import { Computer, Search } from "lucide-react";
 import { Separator } from "./ui/separator";
 import { RoundedButton } from "./RoundedButton";
